@@ -1,0 +1,30 @@
+header {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+body {
+  background-image: url(3.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #30363d;
+  text-align: center;
+}
+
+th {
+  color: black;
+}
